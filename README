@@ -1,3 +1,20 @@
+OCTOBER 2020 UPDATE:
+
+I completely rewrote the game several times, and finally I think I've found a version that's clean, concise, and scalable.
+
+Only 3 files have been updated to version 6. Ignore the other files. 
+
+Why are they there? Because I don't know how to use GitHub very well and I don't know how to delete stuff.
+
+I'm too sleepy to learn right now. It's 11:06 pm in California as I write this update.
+
+Check out the new version. It's simple, but it shows what I know how to do at this point in my coding journey. 
+
+Been studying since March and I'm pretty proud of the progress I've made. This version is the cleanest yet.
+
+
+ORIGINAL README:
+
 The code is commented out because I wrote a lot of it not knowing what the hell I was doing.
 
 Someday I'll write a comprehensive readme, but I need to work on the base code a lot more. 
@@ -9,3 +26,4 @@ It's just a proof of concept right now. But it's cool and I like it!
 Run the files in the same folder and play around with the buttons. 
 
 It's all default style for now.
+
