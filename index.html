@@ -3,38 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>White Claw Clicker</title>
+  <title>Slammin' Claws</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Slamin' Claws</h1>
-
-    <button id = "slamButton"></button>
-    <div id = "clawsDisplay"></div>
-    <div id = "timeOutDisplay"></div>
-    <div id = "liverFunctionExplained"></div>
-    <div id = "liverFunctionDisplay"></div>
-    <div id = "liverFunctionExplainedCont"></div>
-    <div id = "liverSpeedDisplay"></div>
-    <button onclick="showHideUpgradeArea()">Show/Hide Modifiers</button>
-    <div id = "upgradeArea">
-      <button id = "upgrade1" hidden disabled></button>
-      <button id = "upgrade2" hidden disabled></button>
-      <button id = "countUp"></button>
-      <button id = "countDown"></button>
-      <button id = "timerUp"></button>
-      <button id = "timerDown"></button>
-      <button id = "increaseLiverFunction"></button>
-      <button id = "decreaseLiverFunction"></button>
-      <button id = "speedUpLiver"></button>
-      <button id = "slowDownLiver"></button>
+  <div id="container">
+    <h1>Slammin' Claws</h1>
+    <div id="messageBox">Click the button below to begin the game!</div>
+    <div id="pointsTotals"></div>
+    <div id="controls">
+      <button onclick="main()">Start Game</button>
     </div>
-    
-    <script src="setupScripts.js"></script>
-    <script src="functionLibrary.js"></script>
-    <script src="script.js"></script>
-
-  </body>
+  </div>
+  <script src="scripts.js"></script>
+</body>
 </html>
-
-
