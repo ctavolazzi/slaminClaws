@@ -1,0 +1,34 @@
+*{
+  font-family: monospace;
+}
+
+#messageBox{
+  margin: 1rem;
+  padding: .5rem;
+  width: 150px;
+  height: 90px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls{
+  margin-top: 25px;
+}
+
+#pointsTotals{
+  margin-top: 15px;
+}
+
+button{
+  width: 15rem;
+}
+
+#team1SlamButton{
+  /*margin-top: 20px;*/
+}
+
+#team2SlamButton{
+  margin-top: 20px;
+}
