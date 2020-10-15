@@ -12,6 +12,8 @@ function main () {
     document.getElementById("controls").innerHTML = '';
     document.getElementById("messageBox").innerHTML = "GAME OVER"; 
     document.getElementById("pointsTotals").innerHTML = "Team 1 Points: " + TEAM1.points + "<br><br>" + "Team 2 Points: " + TEAM2.points;
+    console.log(TEAM1);
+    console.log(TEAM2);
   }, 5000);
 }
 
@@ -34,6 +36,7 @@ const TEAM1 = {
     slam (claw) {
       this.points += claw.points;
       this.flavorTracker.push(claw.flavor);
+      document.getElementById("messageBox").innerHTML = "TEAM1 Slamms a " + claw.flavor + " Claw for " + claw.points + " Points!"
     }
   };
 
@@ -51,8 +54,9 @@ const TEAM2 = {
     */
     slam (claw) {
       this.points += claw.points;
-      this.flavorTracker.push(claw.flavor);
-    }
+      this.flavorTracker.unshift(claw.flavor);
+      document.getElementById("messageBox").innerHTML = "TEAM2 Slamms a " + claw.flavor + " Claw for " + claw.points + " Points!"
+     }
   };
 
 
