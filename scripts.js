@@ -5,7 +5,7 @@ function main () {
   document.getElementById("messageBox").innerHTML = "SLAM THOSE CLAWS!"; 
   
   //add new buttons to slam claws
-  document.getElementById("controls").innerHTML = '<button id="team1SlamButton" onclick="TEAM1.slam(MANGO_CLAW)">Team 1: Slam A Claw!</button>' + '<br>' + '<button id="team2SlamButton" onclick="TEAM2.slam(MANGO_CLAW)">Team 2 Slam a Claw!</button>'
+  document.getElementById("controls").innerHTML = '<button id="team1SlamButton" onclick="TEAM1.slam(new Claw())">Team 1: Slam A Claw!</button>' + '<br>' + '<button id="team2SlamButton" onclick="TEAM2.slam(new Claw())">Team 2 Slam a Claw!</button>'
   
   //ends the game
   setTimeout(function () {
