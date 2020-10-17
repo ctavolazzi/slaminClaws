@@ -1,3 +1,47 @@
+10/17/20
+v0.2 ANNOUNCEMENT: A CHALLENGER APPEARS
+
+Added bot behavior on the COMPUTER object.
+
+Now when the user clicks the "Start Game" button, the "main()" function calls "GAME.COMPUTER.slam()",
+a recursive function that calls itself on a setTimeout interval.
+
+I've also included many other major overhauls, including the amount of comments in the code.
+
+Please feel free to poke around in this release and let me know what you think!
+
+This is the most substantial update yet. There are many, many new features in this release including:
+  - Added bot behavior on the COMPUTER object
+  - Added the ability to boost Claws and to track whether or not each randomly generated Claw is boosted
+  - Added additional debugging features and messageBox support
+  - Added significant commenting throughout the program (mostly for myself, it's getting confusing)
+  - Added the ability for the COMPUTER to get drunk
+  - Added the ability for both players to sober up
+  - Added new key/value pairs to objects throughout
+  - Added new methods to objects throughout
+  - Added a "CHANGE LOG" to functions I changed substantially and that need more work on more in the future
+  - Tested new gameplay mechanics
+  - Commented out some interesting debugging and gameplay features still in development
+  - Forgot a few things here most likely
+  
+Please message me if you hve any suggestions or feedback for this project!
+
+
+10/15/20
+v0.1 ANNOUNCEMENT: OFFICIAL RELEASE
+
+IT'S HERE!!
+
+A fully stable build is finally here!
+
+No known bugs, no weird stuff going on, just a bunch of basic code that works.
+
+This represents my working knowledge of vanilla JavaScript as of October, 2020.
+
+I hope you enjoy the update!
+
+
+
 OCTOBER 2020 UPDATE:
 
 I completely rewrote the game several times, and finally I think I've found a version that's clean, concise, and scalable.
@@ -11,6 +55,7 @@ I'm too sleepy to learn right now. It's 11:06 pm in California as I write this u
 Check out the new version. It's simple, but it shows what I know how to do at this point in my coding journey. 
 
 Been studying since March and I'm pretty proud of the progress I've made. This version is the cleanest yet.
+
 
 
 ORIGINAL README:
